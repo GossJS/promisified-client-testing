@@ -1,8 +1,12 @@
 {
   "scripts": {
-    "test": "mocha --compilers js:babel-register"
+    "test": "mocha --compilers js:babel-register",
+    "start": "node --experimental-modules z7.mjs"
   },
   "name": "promisified-client-testing",
+  "engines": {
+    "node": ">=8.5.0"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/GossJS/promisified-client-testing.git",
@@ -15,5 +19,5 @@
     "mocha": "^3.5.3",
     "should": "^13.0.1",
     "zombie": "^5.0.7"
-  } 
+  }
 }
