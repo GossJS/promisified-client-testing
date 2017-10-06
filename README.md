@@ -8,9 +8,16 @@
     
     - и вашими ФИО в качестве текст-контента
     
-   Это проверяет сценарий z7a.mjs 
+    
    
    ≺h4 id="author" title="GossJS"≻Иван Иванов≺/h4≻ - так это должно выглядеть
+   
+   Это проверяет сценарий z7a.mjs
+   
+   node --experimental-modules z7a.mjs https://infinite-lake-15917.herokuapp.com/
+   
+    если URL не указан, проверяется https://kodaktor.ru/g/boo 
+   
 
 1. Пример работающего теста с образцом клиентского приложения
 
